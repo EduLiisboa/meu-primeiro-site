@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+   <script src="./js/index.js"></script>
+    <script src="https://kit.fontawesome.com/00b56121cf.js" crossorigin="anonymous" defer></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Login - BookOpen</h1>
+    </header>
+    <main>
+        <form>
+            <section class="inputs-container">
+                <input type="email" placeholder="exemplo@gmail.com">
+
+                <div class="password-container">
+                    <input type="password" id="field-password" class="field-password" placeholder="*******"> 
+                    <i class="fas fa-eye" id="eye" onclick="showPassword()"></i>
+                    <i class="fas fa-eye-slash" id="eye-slash" onclick="showPassword()"></i>
+                </div>
+            </section>
+
+            <section class="password-infos">
+                <div>
+                    <input type="checkbox">
+                    <span>Lembrar senha</span>
+                </div>
+                <a href="#">Esqueceu sua senha?</a>
+            </section>
+
+            <button id="btn-login">Login</button>
+
+            <section class="links-container">
+                <span>Ou entre com:</span>
+                <aside>
+                    <a href="https://mail.google.com/"><i class="fa-brands fa-google-plus-square google"></i></a>
+                    <a href="https://br.linkedin.com/"><i class="fa-brands fa-linkedin linkedin"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square facebook"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram-square instagram"></i></a>
+                    <a href="https://github.com/"><i class="fa-brands fa-github-square github"></i></a>
+                </aside>
+            </section>
+
+            <footer>
+                <hr>
+                <span>Ainda não tem uma conta? <a href="#">Cadastre-se</a></span>
+            </footer>
+
+        </form>
+    </main>
+    
+</body>
+</html>
